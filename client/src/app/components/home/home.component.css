@@ -1,0 +1,17 @@
+.home-container{
+    height: 90vh;
+    overflow: auto;
+    background-image:url("https://shadesofspring.in/cdn/shop/files/Occation_banner_1400x.jpg?v=1687343389");
+}
+.home-section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1000px) {
+    .home-section{
+        flex-direction: column;
+    }
+
+}
